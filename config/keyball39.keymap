@@ -46,10 +46,10 @@
         RH {
             label = "RH";
             bindings = <
-&kp LA(TAB)  &kp LA(GRAVE)  &trans     &trans  &trans                  &trans    &trans         &kp PLUS        &kp PAGE_UP    &kp PAGE_DOWN
-&trans       &trans         &kp EQUAL  &trans  &trans                  &kp HOME  &kp LEFT       &kp MINUS       &kp RIGHT      &kp END
-&trans       &trans         &trans     &trans  &trans                  &trans    &kp LC(LS(C))  &kp UNDERSCORE  &kp LC(LS(V))  &trans
-&trans       &trans         &trans     &trans  &trans  &trans  &trans  &trans                                                  &trans
+&kp LA(TAB)  &kp LA(GRAVE)  &trans  &trans  &trans                  &trans    &trans    &kp PLUS   &kp PAGE_UP  &kp PAGE_DOWN
+&trans       &trans         &trans  &trans  &trans                  &kp HOME  &kp LEFT  &kp MINUS  &kp RIGHT    &kp END
+&trans       &trans         &trans  &trans  &trans                  &trans    &trans    &trans     &trans       &trans
+&trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans                                      &trans
             >;
         };
 
