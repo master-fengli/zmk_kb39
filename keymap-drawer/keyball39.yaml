@@ -28,7 +28,7 @@ layers:
   - B
   - N
   - M
-  - $$mdi:mouse-left-click-outline$$
+  - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -68,7 +68,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - {t: '''', s: '"'}
-  - {t: ',', s: <}
+  - $$mdi:mouse-left-click-outline$$
   - '"'
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
