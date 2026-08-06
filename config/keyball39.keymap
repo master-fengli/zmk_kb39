@@ -37,8 +37,8 @@
             label = "LH";
             bindings = <
 &kp LG(TAB)  &kp LG(GRAVE)  &trans     &trans  &trans                        &kp INSERT  &kp DELETE        &kp TILDE  &kp K_BACK         &kp K_FORWARD
-&trans       &trans         &mkp RCLK  &trans  &trans                        &kp LEFT    &kp DOWN          &kp UP     &kp RIGHT          &kp PIPE
-&trans       &trans         &trans     &trans  &trans                        &kp GRAVE   &kp SINGLE_QUOTE  &mkp LCLK  &kp DOUBLE_QUOTES  &kp BACKSLASH
+&trans       &trans         &mkp RCLK  &trans  &trans                        &kp GRAVE   &kp SINGLE_QUOTE  &mkp LCLK  &kp DOUBLE_QUOTES  &kp PIPE
+&trans       &trans         &trans     &trans  &trans                        &kp LEFT    &kp DOWN          &kp UP     &kp RIGHT          &kp BACKSLASH
 &trans       &trans         &trans     &trans  &trans  &trans  &kp QUESTION  &kp ESC                                                     &trans
             >;
         };
