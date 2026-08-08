@@ -38,7 +38,7 @@
             bindings = <
 &kp PRINTSCREEN  &kp CAPS  &trans     &trans  &trans                   &none      &none             &kp PLUS   &kp BACKSLASH      &kp PIPE
 &trans           &trans    &mkp RCLK  &trans  &trans                   &kp GRAVE  &kp SINGLE_QUOTE  &mkp LCLK  &kp DOUBLE_QUOTES  &kp COLON
-&trans           &trans    &kp CAPS   &trans  &trans                   &kp TILDE  &kp K_BACK        &kp MINUS  &kp K_FORWARD      &kp QUESTION
+&trans           &trans    &trans     &trans  &trans                   &kp TILDE  &kp K_BACK        &kp MINUS  &kp K_FORWARD      &kp QUESTION
 &trans           &trans    &trans     &trans  &trans  &trans  &kp INS  &kp ESC                                                    &trans
             >;
         };
