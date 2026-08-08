@@ -36,20 +36,20 @@
         LH {
             label = "LH";
             bindings = <
-&trans  &trans  &trans     &trans  &trans                           &kp BACKSLASH  &kp CAPS          &kp PLUS   &kp INS            &kp PIPE
-&trans  &trans  &mkp RCLK  &trans  &trans                           &kp GRAVE      &kp SINGLE_QUOTE  &mkp LCLK  &kp DOUBLE_QUOTES  &kp COLON
-&trans  &trans  &trans     &trans  &trans                           &kp TILDE      &kp K_BACK        &kp MINUS  &kp K_FORWARD      &kp QUESTION
-&trans  &trans  &trans     &trans  &trans  &trans  &kp PRINTSCREEN  &kp ESC                                                        &trans
+&kp PRINTSCREEN  &kp CAPS  &trans     &trans  &trans                   &none      &none             &kp PLUS   &kp BACKSLASH      &kp PIPE
+&trans           &trans    &mkp RCLK  &trans  &trans                   &kp GRAVE  &kp SINGLE_QUOTE  &mkp LCLK  &kp DOUBLE_QUOTES  &kp COLON
+&trans           &trans    &kp CAPS   &trans  &trans                   &kp TILDE  &kp K_BACK        &kp MINUS  &kp K_FORWARD      &kp QUESTION
+&trans           &trans    &trans     &trans  &trans  &trans  &kp INS  &kp ESC                                                    &trans
             >;
         };
 
         RH {
             label = "RH";
             bindings = <
-&kp K_MUTE  &kp F20            &kp C_BRI_UP  &trans           &trans                  &trans    &trans    &kp UP    &kp PAGE_UP  &kp PAGE_DOWN
-&trans      &kp C_VOLUME_DOWN  &kp C_BRI_DN  &kp C_VOLUME_UP  &trans                  &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT    &kp END
-&trans      &trans             &trans        &trans           &trans                  &trans    &trans    &trans    &trans       &trans
-&trans      &trans             &trans        &trans           &trans  &trans  &trans  &trans                                     &trans
+&kp K_MUTE  &kp F20            &kp C_BRI_UP  &trans           &trans                  &kp C_VOL_UP  &kp C_VOLUME_DOWN  &kp UP    &kp PAGE_UP  &kp PAGE_DOWN
+&trans      &kp C_VOLUME_DOWN  &kp C_BRI_DN  &kp C_VOLUME_UP  &trans                  &kp HOME      &kp LEFT           &kp DOWN  &kp RIGHT    &kp END
+&trans      &trans             &trans        &trans           &trans                  &trans        &trans             &trans    &trans       &trans
+&trans      &trans             &trans        &trans           &trans  &trans  &trans  &trans                                                  &trans
             >;
         };
 
