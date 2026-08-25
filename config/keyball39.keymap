@@ -38,7 +38,7 @@
             bindings = <
 &kp PRINTSCREEN  &none   &trans        &trans  &trans                     &none      &none     &kp TILDE  &kp BACKSLASH  &kp PIPE
 &trans           &trans  &kp LEFT_GUI  &trans  &trans                     &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT      &kp QUESTION
-&trans           &trans  &trans        &trans  &trans                     &kp HOME   &kp END   &none      &none          &none
+&trans           &trans  &trans        &trans  &trans                     &kp HOME   &kp END   &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN
 &trans           &trans  &trans        &trans  &trans  &trans  &mkp RCLK  &mkp LCLK                                      &trans
             >;
         };
